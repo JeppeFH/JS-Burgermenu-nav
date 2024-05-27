@@ -11,6 +11,6 @@ burgerMenuOpen.addEventListener("click", () => {
 
 burgerMenuClose.addEventListener("click", () => {
   navLinks.classList.remove("active");
-  burgerMenuOpen.classList.add();
+  burgerMenuOpen.classList.remove("active");
   burgerMenuClose.classList.remove("active");
 });
