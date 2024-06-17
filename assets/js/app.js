@@ -2,9 +2,10 @@
 let burgerMenuOpen = document.querySelector(".burgerMenuOpen");
 let burgerMenuClose = document.querySelector(".burgerMenuClose");
 let navLinks = document.querySelector(".nav-links");
-/*Let = Array Literal*/
+/*Let = En literal der bruges til at deklarere en variabel.*/
 /*document = kobler det til ens html */
-/*querySelector = Bruges til at selektere en class eller id fra html'en */
+/*querySelector =  Søger efter elementer i dokumentet, 
+der har class eller id*/
 
 burgerMenuOpen.addEventListener("click", () => {
   /*Fortæller at der skal være en Click event listener på array'en*/
